@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aashikaltd.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/aashikaltd.github.io/static/js/main.c84278ab.js",
+    "static/js/787.f1d9cfb7.chunk.js": "/aashikaltd.github.io/static/js/787.f1d9cfb7.chunk.js",
+    "index.html": "/aashikaltd.github.io/index.html",
+    "main.073c9b0a.css.map": "/aashikaltd.github.io/static/css/main.073c9b0a.css.map",
+    "main.c84278ab.js.map": "/aashikaltd.github.io/static/js/main.c84278ab.js.map",
+    "787.f1d9cfb7.chunk.js.map": "/aashikaltd.github.io/static/js/787.f1d9cfb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c84278ab.js"
+  ]
+}
