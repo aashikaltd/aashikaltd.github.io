@@ -15,8 +15,8 @@ function App() {
           <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a className="nav-link scrollto" href="#about">About</a></li>
           <li><a className="nav-link scrollto" href="#services">Services</a></li>
-          <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a className="nav-link scrollto" href="#testimonials">Testimonials</a></li>
+          {/* <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a className="nav-link scrollto" href="#testimonials">Testimonials</a></li> */}
           <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle"></i>
@@ -34,8 +34,8 @@ function App() {
 
   <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
     <div className="container text-center text-md-left" data-aos="fade-up">
-      <h1>Welcome to <span>Lumia</span></h1>
-      <h2>We are team of talented developers building web applications</h2>
+      <h1>Welcome to <span>Aashika LTD</span></h1>
+      <h2>We are team of talented developers building web applications and making a difference in digital space.</h2>
       <a href="#about" className="btn-get-started scrollto">Get Started</a>
     </div>
   </section>
@@ -47,31 +47,31 @@ function App() {
 
         <div className="section-title">
           <h2>What We Do</h2>
-          <p>Magnam dolores commodi suscipit consequatur ex aliquid</p>
+          <p>We are a leading technology consultancy that integrates design and software engineering to enable and help enterprises and technology providers to thrive as modern digital businesses.</p>
         </div>
 
         <div className="row">
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div className="icon-box">
               <div className="icon"><i className="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">Engineering</a></h4>
+              <p>When change is constant it demands new levels of business agility. We modernize your operations, platforms, development and delivery practices to improve customer experience and deliver business value faster.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Design</a></h4>
+              <p>We align product thinking with platform expertise and digital execution to deliver exceptional customer experiences powered by integrated technology and design.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Strategy</a></h4>
+              <p>We'll work with you on pragmatic strategies for organizational change that increase your agility, resilience and ability to compete.</p>
             </div>
           </div>
 
@@ -90,14 +90,15 @@ function App() {
           <div className="col-lg-6 pt-4 pt-lg-0">
             <h3>About Us</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We are a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
             </p>
             <ul>
-              <li><i className="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i className="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i className="bx bx-check-double"></i> We leverage our vast experience to improve our clients’ ability to respond to change; utilize data assets to unlock new sources of value</li>
+              <li><i className="bx bx-check-double"></i> Create adaptable technology platforms that move with business strategies</li>
+              <li><i className="bx bx-check-double"></i> Rapidly design, deliver and evolve exceptional digital products and experiences at scale.</li>
             </ul>
             <div className="row icon-boxes">
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <i className="bx bx-receipt"></i>
                 <h4>Corporis voluptates sit</h4>
                 <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
@@ -106,7 +107,7 @@ function App() {
                 <i className="bx bx-cube-alt"></i>
                 <h4>Ullamco laboris nisi</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -119,39 +120,38 @@ function App() {
 
         <div className="section-title">
           <h2>Services</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
         </div>
 
         <div className="row">
           <div className="col-md-6">
             <div className="icon-box">
               <i className="bi bi-briefcase"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4><a href="#">Customer Experience, Product and Design</a></h4>
+              <p>Drive value through extraordinary customer experiences powered by integrated technology and design.</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-lg-0">
             <div className="icon-box">
               <i className="bi bi-card-checklist"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4><a href="#">Data and Artificial Intelligence</a></h4>
+              <p>Maximize the business value and enable better decision making with pragmatic data strategies, governance and unrivalled skill sets in predictive AI and ML programming.</p>
             </div>
           </div>
           <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4><a href="#">Digital Transformation and Operations</a></h4>
+              <p>pragmatic strategies for organizational change that increase your agility, resilience and ability to compete.</p>
             </div>
           </div>
           <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-binoculars"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4><a href="#">Enterprise Modernization, Platforms and Cloud</a></h4>
+              <p>Modernize your operations, platforms, development and delivery practices to deliver business value faster.</p>
             </div>
           </div>
-          <div className="col-md-6 mt-4">
+          {/* <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-brightness-high"></i>
               <h4><a href="#">Magni Dolore</a></h4>
@@ -164,13 +164,13 @@ function App() {
               <h4><a href="#">Eiusmod Tempor</a></h4>
               <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
       </div>
     </section>
 
-    <section id="counts" className="counts">
+    {/* <section id="counts" className="counts">
       <div className="container">
 
         <div className="row">
@@ -210,57 +210,57 @@ function App() {
         </div>
 
       </div>
-    </section>
+    </section> */}
 
     <section id="services" className="services section-bg">
       <div className="container">
 
         <div className="section-title">
           <h2>Technologies</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+          <p>Digital Technologies We Touch Upon</p>
         </div>
 
         <div className="row">
           <div className="col-md-6">
             <div className="icon-box">
               <i className="bi bi-briefcase"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4><a href="#">Cloud Migration/ Implementation</a></h4>
+              <p>Modernize your operations, platforms, development and delivery practices to deliver business value faster.</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-lg-0">
             <div className="icon-box">
               <i className="bi bi-card-checklist"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4><a href="#">Cutting Edge Web Technologies</a></h4>
+              <p>For Rapid Prototyping and app development</p>
             </div>
           </div>
           <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4><a href="#">Devops</a></h4>
+              <p>For CI/CD in the applications we build for speey delivery</p>
             </div>
           </div>
           <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-binoculars"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4><a href="#">Testing Tool</a></h4>
+              <p>We use various testing tools accross industry for prviding test strategies</p>
             </div>
           </div>
           <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-brightness-high"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4><a href="#">Database Migration Services</a></h4>
+              <p>Either from SQL to NO-SQL or any database of your choice</p>
             </div>
           </div>
           <div className="col-md-6 mt-4">
             <div className="icon-box">
               <i className="bi bi-calendar4-week"></i>
-              <h4><a href="#">Eiusmod Tempor</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <h4><a href="#">Site Maintenance Services</a></h4>
+              <p>Using web Technologies to either uplift the existing applications or maintain them</p>
             </div>
           </div>
         </div>
@@ -268,7 +268,7 @@ function App() {
       </div>
     </section>
 
-    <section id="portfolio" className="portfolio">
+    {/* <section id="portfolio" className="portfolio">
       <div className="container">
 
         <div className="section-title">
@@ -276,7 +276,7 @@ function App() {
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit</p>
         </div>
 
-        {/* <div className="row">
+        <div className="row">
           <div className="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" className="filter-active">All</li>
@@ -285,7 +285,7 @@ function App() {
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div> */}
+        </div>
 
         <div className="row portfolio-container">
 
@@ -427,9 +427,9 @@ function App() {
         </div>
 
       </div>
-    </section>
+    </section> */}
 
-    <section id="testimonials" className="testimonials section-bg">
+    {/* <section id="testimonials" className="testimonials section-bg">
       <div className="container">
 
         <div className="section-title">
@@ -510,14 +510,14 @@ function App() {
         </div>
 
       </div>
-    </section>
+    </section> */}
 
     <section id="contact" className="contact section-bg">
       <div className="container">
 
         <div className="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga</p>
+          <p>Contact us for Business Enquires</p>
         </div>
 
         <div className="row mt-5 justify-content-center">
@@ -529,19 +529,19 @@ function App() {
                 <div className="col-lg-4 info">
                   <i className="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street<br />New York, NY 535022</p>
+                  <p>55 Portland Street<br />Aberdeen<br />Ab11 6LN<br />Scotland, United Kingdom</p>
                 </div>
 
                 <div className="col-lg-4 info mt-4 mt-lg-0">
                   <i className="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com<br  />contact@example.com</p>
+                  <p><a href="mailTo:info@aashikaltd.com">info@aashikaltd.com</a></p>
                 </div>
 
                 <div className="col-lg-4 info mt-4 mt-lg-0">
                   <i className="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 51<br />+1 5589 22475 14</p>
+                  <p>+44 7850865802</p>
                 </div>
               </div>
             </div>
@@ -561,13 +561,15 @@ function App() {
         <div className="row">
 
           <div className="col-lg-3 col-md-6 footer-contact">
-            <h3>Lumia</h3>
+            <h3>AASHIKA LTD</h3>
             <p>
-              A108 Adam Street <br />
-              New York, NY 535022<br />
-              United States <br /><br />
-              <strong>Phone:</strong> +1 5589 55488 55<br />
-              <strong>Email:</strong> info@example.com<br />
+              55 Portland Street<br />
+              Aberdeen<br />
+              Ab11 6LN<br />
+              Scotland, United Kingdom<br /><br />
+              <strong>Phone:</strong>+44 7850865802<br />
+              <strong>Company Email:</strong><a href="mailTo:info@aashikaltd.com">info@aashikaltd.com</a><br />
+              <strong>Hr Email:</strong><a href="mailTo:hr@aashikaltd.com">hr@aashikaltd.com</a><br />
             </p>
           </div>
 
@@ -600,10 +602,7 @@ function App() {
 
       <div className="me-md-auto text-center text-md-start">
         <div className="copyright">
-          &copy; Copyright <strong><span>Lumia</span></strong>. All Rights Reserved
-        </div>
-        <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          &copy; Copyright <strong><span>AASHIKA LTD</span></strong>. All Rights Reserved
         </div>
       </div>
       <div className="social-links text-center text-md-right pt-3 pt-md-0">
